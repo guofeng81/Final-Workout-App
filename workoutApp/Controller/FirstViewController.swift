@@ -8,12 +8,23 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
 
+class FirstViewController: UIViewController {
+    
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    
+    @IBAction func workoutBtn(_ sender: Any) {
+        performSegue(withIdentifier: "goToWorkout", sender: self)
+    }
+    
+    
+    
 
 
 }
