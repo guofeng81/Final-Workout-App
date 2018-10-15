@@ -18,6 +18,7 @@
 		B3428CA221741760000BEFAE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3428CA121741760000BEFAE /* Item.swift */; };
 		B3428CA421741917000BEFAE /* TodoLIstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3428CA321741917000BEFAE /* TodoLIstViewController.swift */; };
 		B3428CA62174249F000BEFAE /* WorkoutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3428CA52174249F000BEFAE /* WorkoutDetailViewController.swift */; };
+		B3428CA821742C51000BEFAE /* WorkoutClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3428CA721742C51000BEFAE /* WorkoutClockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B3428CA121741760000BEFAE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B3428CA321741917000BEFAE /* TodoLIstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoLIstViewController.swift; sourceTree = "<group>"; };
 		B3428CA52174249F000BEFAE /* WorkoutDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailViewController.swift; sourceTree = "<group>"; };
+		B3428CA721742C51000BEFAE /* WorkoutClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutClockViewController.swift; sourceTree = "<group>"; };
 		C2C88CDEA56FD6026DF98294 /* Pods-workoutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workoutApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-workoutApp/Pods-workoutApp.debug.xcconfig"; sourceTree = "<group>"; };
 		EF8488A9710AED563712A3A3 /* Pods_workoutApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_workoutApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,6 +91,7 @@
 				B3428C882173F9FA000BEFAE /* FirstViewController.swift */,
 				B3428C8A2173F9FA000BEFAE /* SecondViewController.swift */,
 				B3428CA52174249F000BEFAE /* WorkoutDetailViewController.swift */,
+				B3428CA721742C51000BEFAE /* WorkoutClockViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				B3428CA221741760000BEFAE /* Item.swift in Sources */,
 				B3428CA62174249F000BEFAE /* WorkoutDetailViewController.swift in Sources */,
+				B3428CA821742C51000BEFAE /* WorkoutClockViewController.swift in Sources */,
 				B3428C8B2173F9FA000BEFAE /* SecondViewController.swift in Sources */,
 				B3428CA421741917000BEFAE /* TodoLIstViewController.swift in Sources */,
 				B3428C872173F9FA000BEFAE /* AppDelegate.swift in Sources */,
