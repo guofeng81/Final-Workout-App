@@ -108,8 +108,8 @@
 				B3428CA321741917000BEFAE /* TodoLIstViewController.swift */,
 				B3428CA52174249F000BEFAE /* WorkoutDetailViewController.swift */,
 				B337DA462190F17C00B12066 /* SubWorkoutsViewController.swift */,
-				B3428CA721742C51000BEFAE /* WorkoutClockViewController.swift */,
 				B3574759217FBB8F00A141DC /* WorkoutHistoryTableViewController.swift */,
+				B3428CA721742C51000BEFAE /* WorkoutClockViewController.swift */,
 				B3428C8A2173F9FA000BEFAE /* SecondViewController.swift */,
 			);
 			path = Controller;
