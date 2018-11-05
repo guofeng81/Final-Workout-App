@@ -21,6 +21,8 @@
 		B3428CA821742C51000BEFAE /* WorkoutClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3428CA721742C51000BEFAE /* WorkoutClockViewController.swift */; };
 		B3574758217FA08100A141DC /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3574757217FA08100A141DC /* Workout.swift */; };
 		B357475A217FBB8F00A141DC /* WorkoutHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3574759217FBB8F00A141DC /* WorkoutHistoryTableViewController.swift */; };
+		B357476421800A2700A141DC /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B357476221800A2700A141DC /* WorkoutTableViewCell.swift */; };
+		B357476521800A2700A141DC /* WorkoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B357476321800A2700A141DC /* WorkoutTableViewCell.xib */; };
 		B3761809217E4C2000BA682B /* WorkoutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3761808217E4C2000BA682B /* WorkoutDataModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		B3428CA721742C51000BEFAE /* WorkoutClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutClockViewController.swift; sourceTree = "<group>"; };
 		B3574757217FA08100A141DC /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		B3574759217FBB8F00A141DC /* WorkoutHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHistoryTableViewController.swift; sourceTree = "<group>"; };
+		B357476221800A2700A141DC /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		B357476321800A2700A141DC /* WorkoutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkoutTableViewCell.xib; sourceTree = "<group>"; };
 		B3761808217E4C2000BA682B /* WorkoutDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataModel.swift; sourceTree = "<group>"; };
 		C2C88CDEA56FD6026DF98294 /* Pods-workoutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workoutApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-workoutApp/Pods-workoutApp.debug.xcconfig"; sourceTree = "<group>"; };
 		EF8488A9710AED563712A3A3 /* Pods_workoutApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_workoutApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +90,7 @@
 				B3428C8F2173F9FB000BEFAE /* Assets.xcassets */,
 				B3428C912173F9FB000BEFAE /* LaunchScreen.storyboard */,
 				B3428C942173F9FB000BEFAE /* Info.plist */,
+				B357476621800A3800A141DC /* Cells */,
 			);
 			path = workoutApp;
 			sourceTree = "<group>";
@@ -120,6 +125,15 @@
 				B3574757217FA08100A141DC /* Workout.swift */,
 			);
 			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		B357476621800A3800A141DC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B357476221800A2700A141DC /* WorkoutTableViewCell.swift */,
+				B357476321800A2700A141DC /* WorkoutTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		C4FD04B81C73A1162A711CD2 /* Pods */ = {
@@ -202,6 +216,7 @@
 				B3428C932173F9FB000BEFAE /* LaunchScreen.storyboard in Resources */,
 				B3428C902173F9FB000BEFAE /* Assets.xcassets in Resources */,
 				B3428C8E2173F9FA000BEFAE /* Main.storyboard in Resources */,
+				B357476521800A2700A141DC /* WorkoutTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +234,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-workoutApp/Pods-workoutApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -226,6 +242,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -268,6 +285,7 @@
 				B3428C8B2173F9FA000BEFAE /* SecondViewController.swift in Sources */,
 				B3428CA421741917000BEFAE /* TodoLIstViewController.swift in Sources */,
 				B3761809217E4C2000BA682B /* WorkoutDataModel.swift in Sources */,
+				B357476421800A2700A141DC /* WorkoutTableViewCell.swift in Sources */,
 				B357475A217FBB8F00A141DC /* WorkoutHistoryTableViewController.swift in Sources */,
 				B3428C872173F9FA000BEFAE /* AppDelegate.swift in Sources */,
 				B3428C892173F9FA000BEFAE /* FirstViewController.swift in Sources */,
