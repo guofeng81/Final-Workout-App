@@ -31,6 +31,7 @@
 		B357476521800A2700A141DC /* WorkoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B357476321800A2700A141DC /* WorkoutTableViewCell.xib */; };
 		B3761809217E4C2000BA682B /* WorkoutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3761808217E4C2000BA682B /* WorkoutDataModel.swift */; };
 		B3EA613F2199122500D66927 /* video.MOV in Resources */ = {isa = PBXBuildFile; fileRef = B3EA613E2199122500D66927 /* video.MOV */; };
+		B3EA6141219A217C00D66927 /* CardioWorkoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EA6140219A217C00D66927 /* CardioWorkoutItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		B357476321800A2700A141DC /* WorkoutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkoutTableViewCell.xib; sourceTree = "<group>"; };
 		B3761808217E4C2000BA682B /* WorkoutDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataModel.swift; sourceTree = "<group>"; };
 		B3EA613E2199122500D66927 /* video.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = video.MOV; path = ../video.MOV; sourceTree = "<group>"; };
+		B3EA6140219A217C00D66927 /* CardioWorkoutItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioWorkoutItem.swift; sourceTree = "<group>"; };
 		C2C88CDEA56FD6026DF98294 /* Pods-workoutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workoutApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-workoutApp/Pods-workoutApp.debug.xcconfig"; sourceTree = "<group>"; };
 		EF8488A9710AED563712A3A3 /* Pods_workoutApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_workoutApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -116,9 +118,9 @@
 				B3428C882173F9FA000BEFAE /* FirstViewController.swift */,
 				B3428CA321741917000BEFAE /* TodoLIstViewController.swift */,
 				B3428CA52174249F000BEFAE /* WorkoutDetailViewController.swift */,
-				B337DA462190F17C00B12066 /* SubWorkoutsViewController.swift */,
 				B3574759217FBB8F00A141DC /* WorkoutHistoryTableViewController.swift */,
 				B337DA482191090C00B12066 /* HistoryDetailTableViewController.swift */,
+				B337DA462190F17C00B12066 /* SubWorkoutsViewController.swift */,
 				B3428CA721742C51000BEFAE /* WorkoutClockViewController.swift */,
 				B3428C8A2173F9FA000BEFAE /* SecondViewController.swift */,
 			);
@@ -129,8 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				B3428C8C2173F9FA000BEFAE /* Main.storyboard */,
-				B3147F4F2194B29A000A429D /* CardioWorkoutDetailViewController.swift */,
 				B3147F4D2194B1E4000A429D /* CardioWorkoutTableViewController.swift */,
+				B3147F4F2194B29A000A429D /* CardioWorkoutDetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -144,6 +146,7 @@
 				B337DA402190ED3200B12066 /* SubworkoutItem.swift */,
 				B337DA422190ED8400B12066 /* WorkoutHistoryItem.swift */,
 				B337DA442190EDBE00B12066 /* SubworkoutHistoryItem.swift */,
+				B3EA6140219A217C00D66927 /* CardioWorkoutItem.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				B3147F4E2194B1E4000A429D /* CardioWorkoutTableViewController.swift in Sources */,
 				B3428CA821742C51000BEFAE /* WorkoutClockViewController.swift in Sources */,
 				B3147F502194B29A000A429D /* CardioWorkoutDetailViewController.swift in Sources */,
+				B3EA6141219A217C00D66927 /* CardioWorkoutItem.swift in Sources */,
 				B337DA432190ED8400B12066 /* WorkoutHistoryItem.swift in Sources */,
 				B3574758217FA08100A141DC /* Workout.swift in Sources */,
 				B337DA472190F17C00B12066 /* SubWorkoutsViewController.swift in Sources */,
