@@ -30,6 +30,7 @@
 		B357476421800A2700A141DC /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B357476221800A2700A141DC /* WorkoutTableViewCell.swift */; };
 		B357476521800A2700A141DC /* WorkoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B357476321800A2700A141DC /* WorkoutTableViewCell.xib */; };
 		B3761809217E4C2000BA682B /* WorkoutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3761808217E4C2000BA682B /* WorkoutDataModel.swift */; };
+		B3EA613F2199122500D66927 /* video.MOV in Resources */ = {isa = PBXBuildFile; fileRef = B3EA613E2199122500D66927 /* video.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		B357476221800A2700A141DC /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
 		B357476321800A2700A141DC /* WorkoutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkoutTableViewCell.xib; sourceTree = "<group>"; };
 		B3761808217E4C2000BA682B /* WorkoutDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataModel.swift; sourceTree = "<group>"; };
+		B3EA613E2199122500D66927 /* video.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = video.MOV; path = ../video.MOV; sourceTree = "<group>"; };
 		C2C88CDEA56FD6026DF98294 /* Pods-workoutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workoutApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-workoutApp/Pods-workoutApp.debug.xcconfig"; sourceTree = "<group>"; };
 		EF8488A9710AED563712A3A3 /* Pods_workoutApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_workoutApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 		B3428C7A2173F9FA000BEFAE = {
 			isa = PBXGroup;
 			children = (
+				B3EA613E2199122500D66927 /* video.MOV */,
 				B3428C852173F9FA000BEFAE /* workoutApp */,
 				B3428C842173F9FA000BEFAE /* Products */,
 				C4FD04B81C73A1162A711CD2 /* Pods */,
@@ -235,6 +238,7 @@
 				B3428C902173F9FB000BEFAE /* Assets.xcassets in Resources */,
 				B3428C8E2173F9FA000BEFAE /* Main.storyboard in Resources */,
 				B357476521800A2700A141DC /* WorkoutTableViewCell.xib in Resources */,
+				B3EA613F2199122500D66927 /* video.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
